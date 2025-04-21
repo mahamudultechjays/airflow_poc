@@ -1,0 +1,27 @@
+{
+    "job_id": "123", 
+    "user_id": "123", 
+    "team_id": "123", 
+    "payload": {
+        "product_url": "https://www.amazon.com/dp/B08N5L5RSL"
+    }, 
+    "job_status": "new", 
+    "retry_count": 0, 
+    "max_retry": 3, 
+    "job_type": "pdp-scraper",  
+    "marketplace": "amazon", 
+    "end_date": "2025-01-01", 
+    "frequency": "daily",
+    "scheduled_time": "2024-04-21T11:00:00.000Z",
+    "start_time": null,
+    "finish_time": null,
+    "created_at": "2024-04-21T11:00:00.000Z",
+    "updated_at": "2024-04-21T11:00:00.000Z",
+    "batch_size": 1,
+    "priority": 1,
+    "tags": ["pdp", "amazon"],
+    "metadata": {
+        "source": "manual",
+        "environment": "development"
+    }
+}

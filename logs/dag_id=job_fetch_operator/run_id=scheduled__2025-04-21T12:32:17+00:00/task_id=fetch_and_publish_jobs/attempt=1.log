@@ -1,0 +1,48 @@
+[2025-04-21T12:32:18.357+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-21T12:32:18.363+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: job_fetch_operator.fetch_and_publish_jobs scheduled__2025-04-21T12:32:17+00:00 [queued]>
+[2025-04-21T12:32:18.365+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: job_fetch_operator.fetch_and_publish_jobs scheduled__2025-04-21T12:32:17+00:00 [queued]>
+[2025-04-21T12:32:18.366+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-04-21T12:32:18.371+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): fetch_and_publish_jobs> on 2025-04-21 12:32:17+00:00
+[2025-04-21T12:32:18.374+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=4499) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-04-21T12:32:18.374+0000] {standard_task_runner.py:72} INFO - Started process 4500 to run task
+[2025-04-21T12:32:18.374+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'job_fetch_operator', 'fetch_and_publish_jobs', 'scheduled__2025-04-21T12:32:17+00:00', '--job-id', '382', '--raw', '--subdir', 'DAGS_FOLDER/job_fetch_operator.py', '--cfg-path', '/tmp/tmpa940w6cn']
+[2025-04-21T12:32:18.375+0000] {standard_task_runner.py:105} INFO - Job 382: Subtask fetch_and_publish_jobs
+[2025-04-21T12:32:18.477+0000] {task_command.py:467} INFO - Running <TaskInstance: job_fetch_operator.fetch_and_publish_jobs scheduled__2025-04-21T12:32:17+00:00 [running]> on host 1d3796dfef82
+[2025-04-21T12:32:18.504+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='job_fetch_operator' AIRFLOW_CTX_TASK_ID='fetch_and_publish_jobs' AIRFLOW_CTX_EXECUTION_DATE='2025-04-21T12:32:17+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-21T12:32:17+00:00'
+[2025-04-21T12:32:18.505+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-21T12:32:18.510+0000] {logging_mixin.py:190} INFO - Starting job fetch and publish process...
+[2025-04-21T12:32:18.510+0000] {logging_mixin.py:190} INFO - Connecting to MongoDB...
+[2025-04-21T12:32:18.518+0000] {logging_mixin.py:190} INFO - Total jobs in collection: 1
+[2025-04-21T12:32:18.519+0000] {logging_mixin.py:190} INFO - Connecting to RabbitMQ...
+[2025-04-21T12:32:18.541+0000] {connection_workflow.py:179} INFO - Pika version 1.3.2 connecting to ('172.18.0.3', 5672)
+[2025-04-21T12:32:18.541+0000] {io_services_utils.py:345} INFO - Socket connected: <socket.socket fd=66, family=2, type=1, proto=6, laddr=('172.18.0.7', 48722), raddr=('172.18.0.3', 5672)>
+[2025-04-21T12:32:18.541+0000] {connection_workflow.py:428} INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff7cc2c3b0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff7cc2c3b0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+[2025-04-21T12:32:18.543+0000] {connection_workflow.py:293} INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff7cc2c3b0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+[2025-04-21T12:32:18.543+0000] {connection_workflow.py:725} INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff7cc2c3b0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+[2025-04-21T12:32:18.544+0000] {blocking_connection.py:453} INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff7cc2c3b0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+[2025-04-21T12:32:18.544+0000] {blocking_connection.py:1264} INFO - Created channel=1
+[2025-04-21T12:32:18.545+0000] {logging_mixin.py:190} INFO - Declared queue: pdp_scraper_queue
+[2025-04-21T12:32:18.545+0000] {logging_mixin.py:190} INFO - Searching for jobs with query: {'status': 'new'}
+[2025-04-21T12:32:18.545+0000] {logging_mixin.py:190} INFO - Found 1 new jobs to process
+[2025-04-21T12:32:18.546+0000] {logging_mixin.py:190} INFO - Processing job: 123
+[2025-04-21T12:32:18.546+0000] {logging_mixin.py:190} INFO - Using routing key: pdp-scraper.amazon
+[2025-04-21T12:32:18.546+0000] {logging_mixin.py:190} INFO - Published message to RabbitMQ: {"_id": "680631070579a0e25cf70767", "job_id": "123", "user_id": "123", "team_id": "123", "payload": ...
+[2025-04-21T12:32:18.547+0000] {logging_mixin.py:190} INFO - Updated job status in MongoDB. Modified count: 0
+[2025-04-21T12:32:18.547+0000] {blocking_connection.py:802} INFO - Closing connection (200): Normal shutdown
+[2025-04-21T12:32:18.547+0000] {channel.py:536} INFO - Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff7cc2c3b0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>>
+[2025-04-21T12:32:18.547+0000] {channel.py:1133} INFO - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff7cc2c3b0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>>
+[2025-04-21T12:32:18.547+0000] {connection.py:1316} INFO - Closing connection (200): 'Normal shutdown'
+[2025-04-21T12:32:18.548+0000] {io_services_utils.py:731} INFO - Aborting transport connection: state=1; <socket.socket fd=66, family=2, type=1, proto=6, laddr=('172.18.0.7', 48722), raddr=('172.18.0.3', 5672)>
+[2025-04-21T12:32:18.548+0000] {io_services_utils.py:904} INFO - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=66, family=2, type=1, proto=6, laddr=('172.18.0.7', 48722), raddr=('172.18.0.3', 5672)>
+[2025-04-21T12:32:18.548+0000] {io_services_utils.py:869} INFO - Deactivating transport: state=1; <socket.socket fd=66, family=2, type=1, proto=6, laddr=('172.18.0.7', 48722), raddr=('172.18.0.3', 5672)>
+[2025-04-21T12:32:18.548+0000] {connection.py:2017} INFO - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+[2025-04-21T12:32:18.548+0000] {connection.py:2086} INFO - Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+[2025-04-21T12:32:18.549+0000] {io_services_utils.py:882} INFO - Closing transport socket and unlinking: state=3; <socket.socket fd=66, family=2, type=1, proto=6, laddr=('172.18.0.7', 48722), raddr=('172.18.0.3', 5672)>
+[2025-04-21T12:32:18.549+0000] {blocking_connection.py:525} INFO - User-initiated close: result=(<SelectConnection CLOSED transport=None params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>, ConnectionClosedByClient: (200) 'Normal shutdown')
+[2025-04-21T12:32:18.549+0000] {logging_mixin.py:190} INFO - Job processing complete. Successfully processed 1 jobs
+[2025-04-21T12:32:18.550+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-21T12:32:18.554+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-21T12:32:18.554+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=job_fetch_operator, task_id=fetch_and_publish_jobs, run_id=scheduled__2025-04-21T12:32:17+00:00, execution_date=20250421T123217, start_date=20250421T123218, end_date=20250421T123218
+[2025-04-21T12:32:18.600+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-21T12:32:18.687+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-21T12:32:18.688+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

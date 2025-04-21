@@ -1,0 +1,1397 @@
+[2025-04-21T10:27:56.356+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T10:27:56.356+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-21T10:27:56.356+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T10:27:56.357+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T10:27:56.358+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2025-04-21T10:28:25.449+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-21T10:28:30.336+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T10:28:30.336+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-21T10:28:30.337+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T10:28:30.337+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T10:28:30.339+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2025-04-21T10:32:54.930+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-21T10:39:45.834+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T10:39:45.834+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-21T10:39:45.834+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T10:39:45.835+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T10:39:45.835+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2025-04-21T10:44:46.351+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T10:44:46.355+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2025-04-21T10:49:46.990+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T10:49:46.998+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2025-04-21T11:03:45.048+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T11:03:45.056+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2025-04-21T11:08:45.630+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T11:08:45.638+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T11:08:57.796+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           0           1  0.04s           2025-04-21T11:08:45                       3
+================================================================================
+[2025-04-21T11:09:28.065+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           0           1  0.03s           2025-04-21T11:09:15                       5
+================================================================================
+[2025-04-21T11:09:58.325+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           0           1  0.04s           2025-04-21T11:09:46                       5
+================================================================================
+[2025-04-21T11:10:28.571+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           0           1  0.03s           2025-04-21T11:10:16                       5
+================================================================================
+[2025-04-21T11:10:58.859+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           0           1  0.05s           2025-04-21T11:10:46                       5
+================================================================================
+[2025-04-21T11:11:11.784+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-21T11:12:05.248+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T11:12:05.249+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-21T11:12:05.249+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T11:12:05.249+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T11:12:05.250+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T11:12:05.278+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py    179  0.01s             0           0                                                   0
+================================================================================
+[2025-04-21T11:12:35.513+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py    190  0.00s             0           1  0.02s           2025-04-21T11:12:05                       5
+================================================================================
+[2025-04-21T11:13:05.764+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py    201  0.00s             0           1  0.03s           2025-04-21T11:12:35                       5
+================================================================================
+[2025-04-21T11:13:24.621+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-21T11:14:24.860+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T11:14:24.860+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-21T11:14:24.861+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T11:14:24.861+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T11:14:24.862+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T11:14:24.923+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py    204  0.03s             0           0                                                   0
+================================================================================
+[2025-04-21T11:14:55.116+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.60s           2025-04-21T11:14:25                      45
+================================================================================
+[2025-04-21T11:15:25.173+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.22s           2025-04-21T11:14:55                      12
+================================================================================
+[2025-04-21T11:15:55.416+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T11:15:26                      12
+================================================================================
+[2025-04-21T11:16:25.661+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T11:15:56                      12
+================================================================================
+[2025-04-21T11:16:56.114+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T11:16:26                      12
+================================================================================
+[2025-04-21T11:17:26.364+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T11:16:57                      12
+================================================================================
+[2025-04-21T11:17:56.654+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T11:17:27                      12
+================================================================================
+[2025-04-21T11:18:27.101+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.23s           2025-04-21T11:17:57                      12
+================================================================================
+[2025-04-21T11:18:57.377+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T11:18:28                      12
+================================================================================
+[2025-04-21T11:19:24.880+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T11:19:24.882+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T11:19:27.833+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.26s           2025-04-21T11:18:58                      12
+================================================================================
+[2025-04-21T11:19:58.165+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T11:19:29                      12
+================================================================================
+[2025-04-21T11:20:28.487+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.25s           2025-04-21T11:19:59                      12
+================================================================================
+[2025-04-21T11:20:58.988+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.23s           2025-04-21T11:20:29                      12
+================================================================================
+[2025-04-21T11:21:29.301+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T11:21:00                      12
+================================================================================
+[2025-04-21T11:21:59.776+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.28s           2025-04-21T11:21:30                      12
+================================================================================
+[2025-04-21T11:22:30.196+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.24s           2025-04-21T11:22:01                      12
+================================================================================
+[2025-04-21T11:23:00.586+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T11:22:31                      12
+================================================================================
+[2025-04-21T11:23:30.875+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T11:23:01                      12
+================================================================================
+[2025-04-21T11:24:01.339+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T11:23:32                      12
+================================================================================
+[2025-04-21T11:24:25.570+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T11:24:25.578+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T11:24:31.655+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.17s           2025-04-21T11:24:02                      12
+================================================================================
+[2025-04-21T11:25:02.053+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T11:24:32                      12
+================================================================================
+[2025-04-21T11:25:32.357+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T11:25:03                      12
+================================================================================
+[2025-04-21T11:26:02.799+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T11:25:33                      12
+================================================================================
+[2025-04-21T11:26:33.152+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.17s           2025-04-21T11:26:03                      12
+================================================================================
+[2025-04-21T11:27:03.514+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T11:26:34                      12
+================================================================================
+[2025-04-21T11:27:33.876+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T11:27:04                      12
+================================================================================
+[2025-04-21T11:28:04.302+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.17s           2025-04-21T11:27:35                      12
+================================================================================
+[2025-04-21T11:28:34.661+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T11:28:05                      12
+================================================================================
+[2025-04-21T11:31:47.116+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T11:31:47.122+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T11:32:05.340+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.40s           2025-04-21T11:31:47                      12
+================================================================================
+[2025-04-21T11:32:36.025+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.24s           2025-04-21T11:32:18                      12
+================================================================================
+[2025-04-21T11:33:06.284+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T11:32:48                      12
+================================================================================
+[2025-04-21T11:33:36.729+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T11:33:18                      12
+================================================================================
+[2025-04-21T11:34:07.104+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T11:33:49                      12
+================================================================================
+[2025-04-21T11:34:37.472+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.23s           2025-04-21T11:34:19                      12
+================================================================================
+[2025-04-21T11:35:07.826+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T11:34:49                      12
+================================================================================
+[2025-04-21T11:35:38.207+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T11:35:20                      12
+================================================================================
+[2025-04-21T11:36:08.549+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T11:35:50                      12
+================================================================================
+[2025-04-21T11:36:38.984+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T11:36:20                      12
+================================================================================
+[2025-04-21T11:36:48.042+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T11:36:48.046+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T11:37:09.249+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.26s           2025-04-21T11:36:51                      12
+================================================================================
+[2025-04-21T11:37:39.771+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T11:37:21                      12
+================================================================================
+[2025-04-21T11:38:10.246+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.22s           2025-04-21T11:37:52                      12
+================================================================================
+[2025-04-21T11:38:40.520+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T11:38:22                      12
+================================================================================
+[2025-04-21T11:39:10.932+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T11:38:52                      12
+================================================================================
+[2025-04-21T11:39:41.181+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T11:39:23                      12
+================================================================================
+[2025-04-21T11:40:11.575+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T11:39:53                      12
+================================================================================
+[2025-04-21T11:40:41.799+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T11:40:23                      12
+================================================================================
+[2025-04-21T11:41:12.199+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T11:40:54                      12
+================================================================================
+[2025-04-21T11:41:42.493+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T11:41:24                      12
+================================================================================
+[2025-04-21T11:41:48.557+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T11:41:48.561+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T11:42:12.910+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T11:41:54                      12
+================================================================================
+[2025-04-21T11:42:43.268+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.24s           2025-04-21T11:42:25                      12
+================================================================================
+[2025-04-21T11:43:13.737+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.26s           2025-04-21T11:42:55                      12
+================================================================================
+[2025-04-21T11:43:44.133+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T11:43:26                      12
+================================================================================
+[2025-04-21T11:44:14.391+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.23s           2025-04-21T11:43:56                      12
+================================================================================
+[2025-04-21T11:44:44.852+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.22s           2025-04-21T11:44:26                      12
+================================================================================
+[2025-04-21T11:45:15.151+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T11:44:57                      12
+================================================================================
+[2025-04-21T11:45:45.548+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T11:45:27                      12
+================================================================================
+[2025-04-21T11:46:15.906+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T11:45:57                      12
+================================================================================
+[2025-04-21T11:46:46.295+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.25s           2025-04-21T11:46:28                      12
+================================================================================
+[2025-04-21T11:46:49.328+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T11:46:49.334+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T11:47:16.688+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.22s           2025-04-21T11:46:58                      12
+================================================================================
+[2025-04-21T11:47:47.034+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.24s           2025-04-21T11:47:29                      12
+================================================================================
+[2025-04-21T11:48:17.488+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.24s           2025-04-21T11:47:59                      12
+================================================================================
+[2025-04-21T11:48:47.761+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T11:48:29                      12
+================================================================================
+[2025-04-21T11:49:18.172+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.24s           2025-04-21T11:49:00                      12
+================================================================================
+[2025-04-21T11:49:48.534+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.25s           2025-04-21T11:49:30                      12
+================================================================================
+[2025-04-21T11:50:18.942+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.24s           2025-04-21T11:50:00                      12
+================================================================================
+[2025-04-21T11:50:49.291+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.22s           2025-04-21T11:50:31                      12
+================================================================================
+[2025-04-21T11:51:19.733+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T11:51:01                      12
+================================================================================
+[2025-04-21T11:51:50.052+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T11:51:50.057+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T11:51:50.065+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.24s           2025-04-21T11:51:32                      12
+================================================================================
+[2025-04-21T11:52:20.433+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T11:52:02                      12
+================================================================================
+[2025-04-21T11:52:50.726+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T11:52:32                      12
+================================================================================
+[2025-04-21T11:53:21.091+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.23s           2025-04-21T11:53:03                      12
+================================================================================
+[2025-04-21T11:53:51.745+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T11:53:50                      11
+================================================================================
+[2025-04-21T11:54:22.022+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T11:54:21                      12
+================================================================================
+[2025-04-21T11:54:52.407+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.26s           2025-04-21T11:54:51                      12
+================================================================================
+[2025-04-21T11:55:22.754+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T11:55:21                      12
+================================================================================
+[2025-04-21T11:55:53.074+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T11:55:52                      12
+================================================================================
+[2025-04-21T11:56:23.398+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T11:56:22                      12
+================================================================================
+[2025-04-21T11:56:50.658+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T11:56:50.663+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T11:56:53.820+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.25s           2025-04-21T11:56:52                      12
+================================================================================
+[2025-04-21T11:57:24.153+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T11:57:23                      12
+================================================================================
+[2025-04-21T11:57:54.534+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T11:57:53                      12
+================================================================================
+[2025-04-21T11:58:24.900+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T11:58:23                      12
+================================================================================
+[2025-04-21T11:58:55.229+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T11:58:54                      12
+================================================================================
+[2025-04-21T11:59:25.645+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T11:59:24                      12
+================================================================================
+[2025-04-21T11:59:55.942+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T11:59:55                      12
+================================================================================
+[2025-04-21T12:00:26.362+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T12:00:25                      12
+================================================================================
+[2025-04-21T12:00:56.667+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T12:00:55                      12
+================================================================================
+[2025-04-21T12:01:27.055+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:01:26                      12
+================================================================================
+[2025-04-21T12:01:51.291+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T12:01:51.298+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T12:01:57.395+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T12:01:56                      12
+================================================================================
+[2025-04-21T12:02:27.787+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T12:02:26                      12
+================================================================================
+[2025-04-21T12:02:58.121+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:02:57                      12
+================================================================================
+[2025-04-21T12:03:28.482+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:03:27                      12
+================================================================================
+[2025-04-21T12:03:58.850+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T12:03:57                      12
+================================================================================
+[2025-04-21T12:04:29.137+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:04:28                      12
+================================================================================
+[2025-04-21T12:04:59.565+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:04:58                      12
+================================================================================
+[2025-04-21T12:05:29.832+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.15s           2025-04-21T12:05:28                      12
+================================================================================
+[2025-04-21T12:06:00.222+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T12:05:59                      12
+================================================================================
+[2025-04-21T12:06:30.539+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:06:29                      12
+================================================================================
+[2025-04-21T12:06:51.725+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T12:06:51.730+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T12:07:00.959+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.17s           2025-04-21T12:06:59                      12
+================================================================================
+[2025-04-21T12:07:31.245+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T12:07:30                      12
+================================================================================
+[2025-04-21T12:08:01.656+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.16s           2025-04-21T12:08:00                      12
+================================================================================
+[2025-04-21T12:08:31.904+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T12:08:31                      12
+================================================================================
+[2025-04-21T12:09:02.129+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:09:01                      12
+================================================================================
+[2025-04-21T12:09:32.362+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:09:31                      12
+================================================================================
+[2025-04-21T12:10:02.760+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:10:01                      12
+================================================================================
+[2025-04-21T12:10:33.060+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:10:32                      12
+================================================================================
+[2025-04-21T12:11:03.447+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T12:11:02                      12
+================================================================================
+[2025-04-21T12:11:33.751+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:11:32                      12
+================================================================================
+[2025-04-21T12:11:51.915+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T12:11:51.917+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T12:12:04.169+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.17s           2025-04-21T12:12:03                      12
+================================================================================
+[2025-04-21T12:12:34.471+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T12:12:33                      12
+================================================================================
+[2025-04-21T12:13:04.903+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:13:02                      12
+================================================================================
+[2025-04-21T12:13:35.132+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:13:32                      12
+================================================================================
+[2025-04-21T12:14:05.576+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T12:14:02                      12
+================================================================================
+[2025-04-21T12:14:35.889+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T12:14:33                      12
+================================================================================
+[2025-04-21T12:15:06.298+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.23s           2025-04-21T12:15:03                      12
+================================================================================
+[2025-04-21T12:15:36.576+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:15:33                      12
+================================================================================
+[2025-04-21T12:16:07.018+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T12:16:04                      12
+================================================================================
+[2025-04-21T12:16:37.300+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T12:16:34                      12
+================================================================================
+[2025-04-21T12:16:52.447+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T12:16:52.450+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T12:17:07.714+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T12:17:04                      12
+================================================================================
+[2025-04-21T12:17:38.004+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T12:17:35                      12
+================================================================================
+[2025-04-21T12:18:08.415+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.22s           2025-04-21T12:18:05                      12
+================================================================================
+[2025-04-21T12:18:38.723+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T12:18:35                      12
+================================================================================
+[2025-04-21T12:19:09.149+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:19:06                      12
+================================================================================
+[2025-04-21T12:19:39.480+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T12:19:36                      12
+================================================================================
+[2025-04-21T12:20:09.923+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.25s           2025-04-21T12:20:06                      12
+================================================================================
+[2025-04-21T12:20:40.230+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T12:20:37                      12
+================================================================================
+[2025-04-21T12:21:10.625+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.23s           2025-04-21T12:21:07                      12
+================================================================================
+[2025-04-21T12:21:41.063+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.26s           2025-04-21T12:21:38                      12
+================================================================================
+[2025-04-21T12:21:53.161+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T12:21:53.165+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T12:22:11.359+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:22:08                      12
+================================================================================
+[2025-04-21T12:22:41.745+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.23s           2025-04-21T12:22:38                      12
+================================================================================
+[2025-04-21T12:23:12.088+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T12:23:09                      12
+================================================================================
+[2025-04-21T12:23:42.472+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T12:23:39                      12
+================================================================================
+[2025-04-21T12:24:12.781+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T12:24:09                      12
+================================================================================
+[2025-04-21T12:24:43.146+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.26s           2025-04-21T12:24:40                      12
+================================================================================
+[2025-04-21T12:25:13.537+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.25s           2025-04-21T12:25:10                      12
+================================================================================
+[2025-04-21T12:25:43.890+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.23s           2025-04-21T12:25:41                      12
+================================================================================
+[2025-04-21T12:26:14.379+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.27s           2025-04-21T12:26:11                      12
+================================================================================
+[2025-04-21T12:26:44.659+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.23s           2025-04-21T12:26:41                      12
+================================================================================
+[2025-04-21T12:26:53.729+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T12:26:53.736+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T12:27:15.091+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.23s           2025-04-21T12:27:12                      12
+================================================================================
+[2025-04-21T12:27:45.390+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T12:27:42                      12
+================================================================================
+[2025-04-21T12:28:15.776+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py   2803  0.00s             1           0  0.20s           2025-04-21T12:28:12                      12
+================================================================================
+[2025-04-21T12:28:46.238+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T12:28:25                      12
+================================================================================
+[2025-04-21T12:29:16.544+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T12:28:55                      12
+================================================================================
+[2025-04-21T12:29:46.813+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.25s           2025-04-21T12:29:25                      12
+================================================================================
+[2025-04-21T12:30:17.190+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.24s           2025-04-21T12:29:56                      12
+================================================================================
+[2025-04-21T12:30:47.475+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T12:30:26                      12
+================================================================================
+[2025-04-21T12:31:17.720+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T12:30:56                      12
+================================================================================
+[2025-04-21T12:31:48.074+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T12:31:27                      12
+================================================================================
+[2025-04-21T12:31:54.112+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T12:31:54.119+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-21T12:32:18.275+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:31:57                      12
+================================================================================
+[2025-04-21T12:32:48.667+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.22s           2025-04-21T12:32:27                      12
+================================================================================
+[2025-04-21T12:33:19.033+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.22s           2025-04-21T12:32:57                      11
+================================================================================
+[2025-04-21T12:33:49.431+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.21s           2025-04-21T12:33:27                      12
+================================================================================
+[2025-04-21T12:34:19.709+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.28s           2025-04-21T12:33:57                      12
+================================================================================
+[2025-04-21T12:34:50.146+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.22s           2025-04-21T12:34:28                      12
+================================================================================
+[2025-04-21T12:35:20.693+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.26s           2025-04-21T12:34:58                      12
+================================================================================
+[2025-04-21T12:35:50.974+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.20s           2025-04-21T12:35:28                      12
+================================================================================
+[2025-04-21T12:36:21.414+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.19s           2025-04-21T12:35:59                      12
+================================================================================
+[2025-04-21T12:36:51.703+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/job_fetch_operator.py                           1           0  0.18s           2025-04-21T12:36:29                      12
+================================================================================
+[2025-04-21T12:36:54.723+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T12:36:54.726+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
