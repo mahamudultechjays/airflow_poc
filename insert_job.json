@@ -1,0 +1,16 @@
+{
+    "job_id": "test_workflow_001",
+    "user_id": "001",
+    "team_id": "001",
+    "payload": {
+        "product_url": "https://www.amazon.com/dp/B0012SDYF2"
+    },
+    "status": "new",
+    "retry_count": 0,
+    "max_retry": 3,
+    "job_type": "pdp-scraper",
+    "marketplace": "amazon",
+    "end_date": "2025-01-01",
+    "frequency": "daily",
+    "priority": 5
+} 

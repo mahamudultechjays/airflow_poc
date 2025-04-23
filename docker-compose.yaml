@@ -44,17 +44,20 @@
 #
 # Feel free to modify this file to suit your needs.
 ---
+version: '3.8'
 x-airflow-common:
   &airflow-common
   # In order to add custom dependencies or upgrade provider packages you can use your extended image.
   # Comment the image line, place your Dockerfile in the directory where you placed the docker-compose.yaml
   # and uncomment the "build" line below, Then run `docker-compose build` to build the images.
-  image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.10.5}
+  image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.7.3}
   # build: .
   environment:
     &airflow-common-env
-    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__CORE__EXECUTOR: CeleryExecutor
     AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
+    AIRFLOW__CELERY__BROKER_URL: amqp://guest:guest@rabbitmq:5672/
     AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
     AIRFLOW__CORE__FERNET_KEY: ''
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
@@ -244,18 +247,28 @@ services:
     volumes:
       - ${AIRFLOW_PROJ_DIR:-.}:/sources
 
+  airflow-worker:
+    <<: *airflow-common
+    command: celery worker -q orchestrator_queue,default
+    environment:
+      <<: *airflow-common-env
+      AIRFLOW__CELERY__DEFAULT_QUEUE: orchestrator_queue
+    healthcheck:
+      test: ["CMD-SHELL", 'celery -A airflow.executors.celery_executor.app inspect ping -d "celery@$${HOSTNAME}"']
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: always
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+
   airflow-cli:
     <<: *airflow-common
     profiles:
       - debug
-    environment:
-      <<: *airflow-common-env
-      CONNECTION_CHECK_MAX_COUNT: "0"
-    # Workaround for entrypoint issue. See: https://github.com/apache/airflow/issues/16252
-    command:
-      - bash
-      - -c
-      - airflow
 
 volumes:
   postgres-db-volume:

@@ -1,0 +1,15 @@
+{
+    "job_id": "test999",
+    "user_id": "999",
+    "team_id": "999",
+    "payload": {
+        "product_url": "https://www.amazon.com/dp/B0012SDYF2"
+    },
+    "status": "new",
+    "retry_count": 0,
+    "max_retry": 3,
+    "job_type": "pdp-scraper",
+    "market_place": "amazon",
+    "end_date": "2025-01-01",
+    "frequency": "daily"
+};

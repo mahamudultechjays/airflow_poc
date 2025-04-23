@@ -4,3 +4,6 @@
 
 .env
 
+
+# exclude all files in logs folder
+logs/*
